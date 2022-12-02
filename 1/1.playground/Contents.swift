@@ -18,7 +18,7 @@ for test in bundled {
         highest3 = highest2
         highest2 = highest
         highest = calc
-    } else if calc > highest2 {
+    } else if calc > highest2 {
         highest3 = highest2
         highest2 = calc
     } else if calc > highest3 {
