@@ -35,6 +35,7 @@ func part1() {
 }
 
 func part2() {
+    priority = 0
     let groups = items.chunked(into: 3)
     for group in groups {
         for char in group[0] {
